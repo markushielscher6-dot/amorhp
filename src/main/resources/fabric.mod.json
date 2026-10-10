@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "armorhp",
+	"version": "${version}",
+	"name": "Armor HP",
+	"description": "Zeigt neben dem Inventar die verbleibende Haltbarkeit deiner Rüstung als Zahl an.",
+	"authors": ["Markus"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.markus.armorhp.ArmorHpClient"]
+	},
+	"mixins": ["armorhp.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
